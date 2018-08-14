@@ -22,7 +22,7 @@ $corpo .= "Nome: " . $name . "\n";
 $corpo .= "Email: " . $email . "\n";
 $corpo .= "Comentários: " . $message . "\n";
 
-$email_to = 'whellington@gmail.com';
+$email_to = 'faleconosco@ccma-rj.com.br';
 //não esqueça de substituir este email pelo seu.
 
 $status = mail($email_to, $subject, $corpo, $headers);
